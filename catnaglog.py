@@ -26,7 +26,7 @@ except IOError:
 try:
     for line in F:
         m = re.match(r'^\[([^\]]+)\] (.+)$', line)
-        if re is not None:
+        if m is not None:
             timestamp = m.group(1)
             infos = m.group(2)
             hdate = time.strftime('%d/%m/%Y %H:%M:%S',

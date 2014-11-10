@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-__author__ = 'guits'
+__author__ = 'Guillaume Abrioux'
 
 import time
 import re
